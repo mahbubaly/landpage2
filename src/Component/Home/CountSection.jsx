@@ -68,7 +68,7 @@ const CountSection = () => {
                         <p className='lg:text-[20px] text_color2 mt-[34px]'>Lorem ipsum dolor sit amet, consect adipis elit. Suspend varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
 
 
-                        <Link className='font-bold text-[16px] mt-[70px]  flex gap-[10px] justify-center items-center  border_btn lg:h-[66px] w-[280px] h-[50px] lg:w-[203px]  bg-primary hover:bg-[#1d2e2e] text-white'>Learn More
+                        <Link className='font-bold text-[16px] mt-[70px]  flex gap-[10px] justify-center items-center  border_btn lg:h-[66px] w-full h-[50px] lg:w-[203px]  bg-primary hover:bg-[#1d2e2e] text-white'>Learn More
                             <img src={rightArrow} className='w-5 h-5' alt="" />
 
                         </Link>

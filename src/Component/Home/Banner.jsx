@@ -13,16 +13,16 @@ const Banner = () => {
 
 
                 <div className='lg:flex mt-[36px] lg:mt-[60px] gap-[18px]'>
-                    <Link className='font-bold text-[16px]  flex gap-[10px] justify-center items-center  border_btn lg:h-[65px] w-[280px] h-[50px] lg:w-[204px]  bg-primary hover:bg-[#1d2e2e] text-white'>Get Started
+                    <Link className='font-bold text-[16px]  flex gap-[10px] justify-center items-center  border_btn lg:h-[65px] w-full h-[50px] lg:w-[204px]  bg-primary hover:bg-[#1d2e2e] text-white'>Get Started
                     <img src={rightArrow} className='w-5 h-5' alt="" />
                     
                     </Link>
 
-                    <Link className='font-bold mt-[10px] lg:mt-0 text-[16px] flex justify-center items-center border_btn w-[280px] h-[50px] lg:h-[64px] lg:w-[174px] hover:bg-primary text-primary hover:text-white'>Learn more</Link>
+                    <Link className='font-bold mt-[10px] lg:mt-0 text-[16px] flex justify-center items-center border_btn w-full h-[50px] lg:h-[64px] lg:w-[174px] hover:bg-primary text-primary hover:text-white'>Learn more</Link>
                 </div>
                 
             </div>
-            <div className='w-[280px] mt-[30px] lg:mt-0 lg:w-[693.999px]'>
+            <div className='w-full  mt-[30px] lg:mt-0 lg:w-[693.999px]'>
                 <img src={bannerImg} className=' relative right-4' alt="" />
 
             </div>
