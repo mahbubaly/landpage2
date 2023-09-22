@@ -44,10 +44,10 @@ const Footer = () => {
                             </div>
 
                         </div>
-                        <div className='lg:w-[177px]'>
+                        <div className=''>
 
 
-                            <h1 className='text-[#fff] font-semibold text-[18px] '>Our Services</h1>
+                            <h1 className='text-[#fff] font-semibold text-[18px] lg:w-[117px]'>Our Services</h1>
                             <div className='flex flex-col mt-[25px] gap-5'>
                                 <Link className='text-[16px] footer_color '>Help center</Link>
                                 <Link className='text-[16px] footer_color '>FAQ</Link>
